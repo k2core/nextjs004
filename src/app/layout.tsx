@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const sans = Open_Sans({ subsets: ["latin"] });
@@ -21,7 +21,7 @@ export default function RootLayout({
         className={`${sans.className} flex flex-col w-full max-w-screen-2xl mx-auto`}
       >
         <Header />
-        <main className="grow bg-sky-400">{children}</main>
+        <main className="grow">{children}</main>
         <Footer />
       </body>
     </html>
