@@ -1,6 +1,7 @@
 "use client";
 
 import { ChangeEvent, FormEvent, useState } from "react";
+import Banner, { BannerData } from "./Banner";
 
 type Form = {
   from: string;
@@ -14,6 +15,8 @@ export default function ContactForm() {
     subject: "",
     message: "",
   });
+  const [banner, setBanner] = useState<BannerData | null>(null);
+
   const onChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
@@ -22,12 +25,22 @@ export default function ContactForm() {
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(form);
+    setBanner({ message: "성공했어!!", state: "success" });
+    setTimeout(() => {
+      setBanner(null);
+    }, 3000);
   };
 
   return (
-    <>
-      <form onSubmit={onSubmit}>
-        <label htmlFor="from">Your Email</label>
+    <section className="w-full max-w-md">
+      {banner && <Banner banner={banner} />}
+      <form
+        onSubmit={onSubmit}
+        className="w-full flex flex-col gap-2 my-4 p-4 bg-slate-700 rounded-xl"
+      >
+        <label htmlFor="from" className="font-semibold text-white">
+          Your Email
+        </label>
         <input
           type="email"
           id="from"
@@ -37,7 +50,9 @@ export default function ContactForm() {
           value={form.from}
           onChange={onChange}
         />
-        <label htmlFor="subject">Subject</label>
+        <label htmlFor="subject" className="font-semibold text-white">
+          Subject
+        </label>
         <input
           type="text"
           id="subject"
@@ -46,7 +61,9 @@ export default function ContactForm() {
           value={form.subject}
           onChange={onChange}
         />
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message" className="font-semibold text-white">
+          Message
+        </label>
         <textarea
           rows={10}
           id="message"
@@ -55,8 +72,10 @@ export default function ContactForm() {
           value={form.message}
           onChange={onChange}
         />
-        <button>Submit</button>
+        <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
+          Submit
+        </button>
       </form>
-    </>
+    </section>
   );
 }
