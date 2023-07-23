@@ -28,9 +28,10 @@ export default function ContactForm() {
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     sendContactEmail(form) //
-      .then(() => {
+      .then((resp) => {
+        console.log(resp);
         setBanner({
-          message: "메일을 성공적으로 보냈습니다.",
+          message: resp.message,
           state: "success",
         });
         setForm(DEFAULT_DATA);
@@ -44,7 +45,7 @@ export default function ContactForm() {
       .finally(() => {
         setTimeout(() => {
           setBanner(null);
-        }, 3000);
+        }, 10000);
       });
   };
 
@@ -82,7 +83,7 @@ export default function ContactForm() {
           Message
         </label>
         <textarea
-          rows={10}
+          rows={5}
           id="message"
           name="message"
           required

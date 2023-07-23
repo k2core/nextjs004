@@ -16,7 +16,7 @@ export default function Banner({
         isSuccess ? "bg-green-300" : "bg-red-300"
       }`}
     >
-      {`${icon} ${message}`}
+      {`${icon} ${message.replaceAll("\n", "-->>")}`}
     </p>
   );
 }
