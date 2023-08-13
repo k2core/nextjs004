@@ -49,6 +49,13 @@ export default function ContactForm() {
       });
   };
 
+  const sentDate = new Date(2023, 8 - 1, 13);
+  const today = new Date();
+  const display =
+    sentDate.getFullYear() === today.getFullYear() &&
+    sentDate.getMonth() === today.getMonth() &&
+    sentDate.getDate() === today.getDate();
+
   return (
     <section className="w-full max-w-md">
       {banner && <Banner banner={banner} />}
@@ -89,6 +96,11 @@ export default function ContactForm() {
           required
           value={form.message}
           onChange={onChange}
+          placeholder={
+            display
+              ? "(8/13 10:31)집에서 숨. 오후3시 출발. 지금 준비하고 갈까? 그럼 지금 준비해서 11:30 정도엔 출발해서 스벅에서 공부하고 있어야지^^"
+              : ""
+          }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
           Submit
