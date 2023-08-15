@@ -49,7 +49,7 @@ export default function ContactForm() {
       });
   };
 
-  const sentDate = new Date(2023, 8 - 1, 13);
+  const sentDate = new Date(2023, 8 - 1, 15);
   const today = new Date();
   const display =
     sentDate.getFullYear() === today.getFullYear() &&
@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(8/13 10:31)집에서 숨. 지금 준비하고 갈까? 그럼 11:30 정도엔 출발해서 스벅에 있어야지.\n(12:50)스벅^^도착!! 3시 경기는 취소(구장 상태)이고, 5시 경기는 모르겠네 ㅋ"
+              ? "(8/15 10:20)씻고 식사 중, 11시전에 출발하면 1시 전에는 스벅(DT) 도착하겠지! 도착하면 여기 다시 기록할게."
               : ""
           }
         />
