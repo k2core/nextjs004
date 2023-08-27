@@ -97,9 +97,7 @@ export default function ContactForm() {
           value={form.message}
           onChange={onChange}
           placeholder={
-            display
-              ? "(19:28) 8시에 돌아갈게요. 걱정마요. 말 잘들을게^^. 자기 못나오는 거 알아요. 자기도 이야기 잘하고, 내일 커피^^\n너무너무 완전 사랑해~❤️솜❤️❤️❤️❤️!!"
-              : ""
+            display ? "(19:52) 혼자 있는 건 아니지? 내가 갈까^^! 난 스벅!" : ""
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
