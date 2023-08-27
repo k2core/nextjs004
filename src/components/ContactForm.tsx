@@ -49,7 +49,7 @@ export default function ContactForm() {
       });
   };
 
-  const sentDate = new Date(2023, 8 - 1, 15);
+  const sentDate = new Date(2023, 8 - 1, 27);
   const today = new Date();
   const display =
     sentDate.getFullYear() === today.getFullYear() &&
@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(6:34) 하남검단산(6:38) > 미사(6:46) > 군자(7:08) - 군자(7:14) > 이수(7:37) - 이수(7:45) > 범개(8:08). \n사랑해~!!"
+              ? "(9:20) 차 타고 여의도 근처 주차할 예정. 자기 도착시간이 11시 조금 넘겠더라고. 내가 먼저가면 역에 있던지, 현대에 있던지 할게!. 5호선? 9호선? 자기 상황(자주,자세히ㅋ) 알려줘^^ \n사랑해~!!"
               : ""
           }
         />
