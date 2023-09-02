@@ -49,7 +49,7 @@ export default function ContactForm() {
       });
   };
 
-  const sentDate = new Date(2023, 8 - 1, 27);
+  const sentDate = new Date(2023, 9 - 1, 2);
   const today = new Date();
   const display =
     sentDate.getFullYear() === today.getFullYear() &&
@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(19:52) 내가 갈까? 혼자 있는 건 아니지?? 스타필드 내에 있는 거지? 난 스벅!\n(20:10) 트레이더스엔 뭐 사러 갔을까 궁금 ㅋ. 이제 스벅에서 나가서 슬슬 걸어가서, 8시30분에 차 출발할게.\n너무너무 사랑해~😍🥰❤️"
-              : ""
+              ? "(23:51) 10시30분 도착. 전화 고마워^^. 잘자요. 내일 출발 알려줄게요^^\n너무너무 사랑해~😍🥰❤️"
+              : "(23:51) 10시30분 도착. 전화 고마워^^. 잘자요. 내일 출발 알려줄게요^^\n너무너무 사랑해~😍🥰❤️"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
