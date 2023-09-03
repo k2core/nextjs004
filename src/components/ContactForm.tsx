@@ -97,9 +97,7 @@ export default function ContactForm() {
           value={form.message}
           onChange={onChange}
           placeholder={
-            display
-              ? "(14:10) 사랑해~❤️숨 너무너무 (13:30) 5시에 끝나고 오면 5시30분. 마트 안 가나ㅋ?. 스벅에 7시나 8시까지 있다가 갈게요~!!\n자기 너무 예쁘당~❤️❤️"
-              : "(14:10) 사랑해~❤️숨 너무너무 (13:30) 5시에 끝나고 오면 5시30분. 마트 안 가나ㅋ?. 스벅에 7시나 8시까지 있다가 갈게요~!!\n자기 너무 예쁘당~❤️❤️"
+            display ? "(17:36) 1분후 일가 주차장" : "(17:36) 1분후 일가 주차장"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
