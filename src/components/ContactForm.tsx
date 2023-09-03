@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(12:59) 내사랑~!! 저는 3층이에요.\n너무너무 사랑해~❤️❤️"
-              : "(12:59) 내사랑~!! 저는 3층이에요.\n너무너무 사랑해~❤️❤️"
+              ? "(13:23) 2층 뒷쪽에 있어요.~!!\n너무너무 사랑해~❤️❤️"
+              : "(13:23) 2층 뒷쪽에 있어요.~!!\n너무너무 사랑해~❤️❤️"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
