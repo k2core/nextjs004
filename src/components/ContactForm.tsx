@@ -49,7 +49,7 @@ export default function ContactForm() {
       });
   };
 
-  const sentDate = new Date(2023, 9 - 1, 2);
+  const sentDate = new Date(2023, 9 - 1, 5);
   const today = new Date();
   const display =
     sentDate.getFullYear() === today.getFullYear() &&
@@ -97,7 +97,9 @@ export default function ContactForm() {
           value={form.message}
           onChange={onChange}
           placeholder={
-            display ? "(23:38) 내사랑 잘자요. 빨리 보고싶다. 사랑해~❤️❤️" : "(23:38) 내사랑 잘자요. 빨리 보고싶다. 사랑해~❤️❤️"
+            display
+              ? "(19:44) 그렇지 않아도 시간 봤는데, 33분 탔구나! 미안해 혼자 보내서 ㅡㅜ. 조심히 가구. 난 30분 정도만 개발하다 가려고\n너무너무 사랑해~❤️❤️숨"
+              : ""
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
