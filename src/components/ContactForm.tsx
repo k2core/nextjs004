@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(20:06) 응! 자기 없어서 그런지 잘 안돼! 전철 한가해지는 10분 후 쯤 출발하려고...\n너무너무 사랑해~❤️❤️숨, 쪼옥"
+              ? "(20:38) 이제 들어갈래...씩씩하게^^! 내사랑 편안한 밤 되기를 바랄게요.\n너무너무 사랑해~❤️❤️숨, 쪼옥"
               : ""
           }
         />
