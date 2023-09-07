@@ -49,7 +49,7 @@ export default function ContactForm() {
       });
   };
 
-  const sentDate = new Date(2023, 9 - 1, 5);
+  const sentDate = new Date(2023, 9 - 1, 7);
   const today = new Date();
   const display =
     sentDate.getFullYear() === today.getFullYear() &&
@@ -98,9 +98,9 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(20:38) 이제 들어갈래...씩씩하게^^! 내사랑 편안한 밤 되기를 바랄게요." +
-                "\n(22:14) 도착. 자기 아무일 없는 편안함 밤 되기를 다시 한번~❤️" +
-                "\n완전 사랑해~❤️❤️숨, 쪼옥"
+              ? "(23:11) 자기야 조심히 들어가고, 좀 더 쉬어요. 사랑해 너무너무 사랑해~❤️숨" +
+                "" +
+                ""
               : ""
           }
         />
