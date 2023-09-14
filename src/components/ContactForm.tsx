@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(10:06)무슨일일까? 연제가 아픈건가? 민서의 트러블? 아님 자기 ㅠㅠ. 언제 오는지 알려줘요! 오는길에서 기다릴게요.\n큰일 아니길~! 사랑해~❤️숨"
-              : "(10:06)무슨일일까? 연제가 아픈건가? 민서의 트러블? 아님 자기 ㅠㅠ. 언제 오는지 알려줘요! 오는길에서 기다릴게요.\n큰일 아니길~! 사랑해~❤️숨"
+              ? "(9월15일)조심히 와요^^! 빌 위치 확인해요! 사랑해~❤️숨"
+              : "(9월15일)조심히 와요^^! 빌 위치 확인해요! 사랑해~❤️숨"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
