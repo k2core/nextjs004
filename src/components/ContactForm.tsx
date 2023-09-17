@@ -87,7 +87,7 @@ export default function ContactForm() {
           onChange={onChange}
         />
         <label htmlFor="message" className="font-semibold text-white">
-          Message
+          Message(ldicjdw)
         </label>
         <textarea
           rows={5}
@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(10:52)샤워하려고, 12시30분 도착 예상. 씻고, 출발전 다시 남길게요. 사랑해~❤️숨\n(23:37)켈리 잘했어요. 하지만 조심조심. 내일 출발 예정시간 나오면 알려줄게요. 잘자요. 보고싶다. 너무너무 사랑해~❤️숨"
-              : "(10:52)샤워하려고, 12시30분 도착 예상. 씻고, 출발전 다시 남길게요. 사랑해~❤️숨\n(23:37)켈리 잘했어요. 하지만 조심조심. 내일 출발 예정시간 나오면 알려줄게요. 잘자요. 보고싶다. 너무너무 사랑해~❤️숨"
+              ? "(11:19)쪼옥~❤️ 소요시간은 평소가 같네. 곹 출발 12시30분 안에는 도착할 듯. 자기 너무 무리하지 말아요. 야구는 아직 취소 안 됨.\n사랑해~❤️숨"
+              : "(11:19)쪼옥~❤️ 소요시간은 평소가 같네. 곹 출발 12시30분 안에는 도착할 듯. 자기 너무 무리하지 말아요. 야구는 아직 취소 안 됨.\n사랑해~❤️숨"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
