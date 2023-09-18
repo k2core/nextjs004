@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(23:28)알림을 못봤네. 30분이 넘었으니 잘 자고 있으려나?? 내사랑 잘자요. 내일 굿모닝 커피해요. 우리 같이\n너무너무 사랑해~❤️숨"
-              : "(23:28)알림을 못봤네. 30분이 넘었으니 잘 자고 있으려나?? 내사랑 잘자요. 내일 굿모닝 커피해요. 우리 같이\n너무너무 사랑해~❤️숨"
+              ? "(00:38)잘자요 내사랑. 내일 일찍 봐요.\n너무너무 사랑해~❤️숨"
+              : "(00:38)잘자요 내사랑. 내일 일찍 봐요.\n너무너무 사랑해~❤️숨"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
