@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display
-              ? "(10:15)뭐든가능. 나는 11:05-10사이도착. 스벅 같이가? 따로가면 메뉴 필요한거 보내줘요! 사랑해~❤️숨"
-              : "(10:15)뭐든가능. 나는 11:05-10사이도착. 스벅 같이가? 따로가면 메뉴 필요한거 보내줘요! 사랑해~❤️숨"
+              ? "(18:32:05)서영이는 어떻게 가지? 난 황산사거리. 삼성으로 가 있을까 ㅋㅋ 사랑해~❤️숨"
+              : "(18:32:05)서영이는 어떻게 가지? 난 황산사거리. 삼성으로 가 있을까 ㅋㅋ 사랑해~❤️숨"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
