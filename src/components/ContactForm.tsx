@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(8:17)보고싶다 조심히와요 오사카 비행기편이 있는 곳으로? 앙 너무너무 사랑해~❤️숨! 오늘은 들어갔다가씨유. 출근하는 모습 보러갈지도 몰라요^^"
+              ? "(8:38)진짜진짜 보고싶어 ㅡㅜ. 어서어서 조심조심히 와요. 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
