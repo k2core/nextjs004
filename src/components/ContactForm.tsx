@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(8:38)진짜진짜 보고싶어 ㅡㅜ. 어서어서 조심조심히 와요. 사랑해~❤️숨"
+              ? "(23:07)당근 탔어요. 너무 시간이 남았다. 3분 가량. 나 진짜 자기랑 같이 있고 싶어서 미칠듯ㅠㅠ나만 생각하는 건가 ㅡㅜ 자기랑 너무 같이 있고 싶다. 잘자요 내사랑 수미^^ 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
