@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(9:26)9:45도착예정 거기 주차 먼저 시도. 보고싶다 사랑해~❤️숨"
+              ? "(9:44)주차못함. 시청에 주차하고 걸어가요! 자기는 어딜까? 어떻게 찾지? (9:26)9:45도착예정 거기 주차 먼저 시도. 보고싶다 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
