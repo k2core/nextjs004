@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(8:05)짜릿한 모닝커스 고마워요. 짜릿한 이유는 어젯밤 보낸 텔레그램으로 확인해요^^ 아침에 조심히와요. 나가서 환대할게요. 너무너무 보고싶고, 사랑해~❤️숨"
+              ? "(8:38)조심히 와요. 요즘은 자리가.. 오늘은 앉아서 오면 좋으련만. 밑에서 봐요~!! 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
