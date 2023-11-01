@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(8:48)ㅋㅋ몇분차인지 없다. 온통 내걱정뿐. 다시 보내줘야 하는데, 몇분차며 어디서 볼지^^ 난 괜츈요. 사랑해~❤️숨"
+              ? "(21:25)환승은 지났지만, 버스기둘. 보고싶다. 4층을 못봤네. 사랑해사랑해사랑해 너무너무 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
