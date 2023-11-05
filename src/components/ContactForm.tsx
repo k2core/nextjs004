@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(17:41)5시53분 도착예정요. 전철표. 조심히 와요. 보고싶다. 사랑해~❤️숨"
+              ? "(20:40)강남역가는 버스 탑승. 우리 같이 있자~! 사회말고 과학 또는 국영수하자^^! 보고싶다 너무. 같이 다니면 좋겠다. 내사랑 수미 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
