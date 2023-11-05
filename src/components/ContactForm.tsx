@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(14:43)9번홀B2층(I,J,M이 보여요). 서두르지 말고 조심히요. 얼마나 볼 수 있을지, 민서는 어떨지 그리고 자기는 얼마나... 보고싶어요. 조심조심요. 사랑해~❤️숨"
+              ? "(17:41)5시53분 도착예정요. 전철표. 조심히 와요. 보고싶다. 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
