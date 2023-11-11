@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(10:11)난 자기 보면 나아^^ 자기도 금방 나아지길요. 빨리 보고싶다 너무너무너무너무. 수미수미 완전 사랑해~❤️숨"
+              ? "(10:11)난 자기 보면 나아^^ 자기도 금방 나아지길요. 빨리 보고싶다 너무너무너무너무. 수미수미 완전 사랑해~❤️숨 "
               : "사랑해~❤️숨"
           }
         />
