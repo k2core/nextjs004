@@ -98,7 +98,7 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display
-              ? "(8:54)또 하나의 바람은 ^^ 우리자기 조심히 오는 거요~!! 씨유 쪼옥 사랑해~❤️숨"
+              ? "(23:11)수미 자기 생일주간^^ 사랑해사랑해사랑해 조심히 가기 꼭 조심히 가기^^ 하자까지는 이제5분후. 벌써 보고싶다. 톡주고^^ 굿나잇하기^^ 수미수미 사랑해~❤️숨"
               : "사랑해~❤️숨"
           }
         />
