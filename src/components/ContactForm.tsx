@@ -98,8 +98,8 @@ export default function ContactForm() {
           onChange={onChange}
           placeholder={
             display || !display // 😍🤩😭🥯🥕🥖🍠 사랑해~❤️숨!
-              ? ""
-              : ""
+              ? "(1:37)도착요. 뭘까?? 잘자요 내사랑 굿나잇 쪼옥.쪼옥.쪼옥. 사랑해~❤️"
+              : "사랑해~❤️"
           }
         />
         <button className="bg-yellow-300 text-black font-bold hover:bg-yellow-400">
