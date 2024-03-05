@@ -1,4 +1,4 @@
-표"use client";
+"use client";
 
 import { ChangeEvent, FormEvent, useState } from "react";
 import Banner, { BannerData } from "./Banner";
